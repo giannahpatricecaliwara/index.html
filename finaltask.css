@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans: 200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+
+h1, h2, h3{
+    color: #4e342e;
+    font-weight: 110;
+}
+
+
+header .logo
+{
+    position: relative;
+    max-width: 65px;
+}
+
+.parallax-container 
+{
+    height: "100px";
+  }
+
+
+  body 
+{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+  main 
+{
+    flex: 1 0 auto;
+}
+
